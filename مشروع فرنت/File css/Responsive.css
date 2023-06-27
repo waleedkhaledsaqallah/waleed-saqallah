@@ -1,0 +1,73 @@
+@media (max-width: 992px) {
+/*  start header lest  */
+.menu .ABOUT , .SHOP , .PORTFOLIO , .BLOG{
+    display: none;
+}
+header .continar .menu .fa-bars{
+display: block;
+}
+
+/* start section img bacground*/
+section{
+ width: auto;
+ height: 200px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ }
+
+
+
+ /* start ABOUT US */
+ .continar .img-About-us .img1 , .img2{
+display: none;
+ }
+ 
+ /*  section secion box-img   */
+ .box-img{
+  display: none;
+ }
+ /*  section fotar 1   */
+ 
+
+ /*  section stay-in-touch  */
+ 
+ .stay-in-touch img{
+  display: none;
+ }
+.stay-in-touch{
+position: relative;
+}
+.stay-in-touch .continar{
+position: absolute;
+margin-top: 5rem;
+right: 1%;
+left: 0%;
+}
+
+ /*  section footar2 media sites  */
+ .logo-media .continar img{
+  width: 70px;
+ }
+.logo-media .continar{
+ display: flex;
+ gap: 15px;
+}
+
+ /*  section social-media-website  */
+ .social-media-website{
+  position: relative;
+ }
+.social-media-website .continar{
+position: absolute;
+bottom: 2rem;
+display: flex;
+gap: 1.2rem;
+line-height: normal;
+padding:0%;
+}
+.location{
+  font-size: 10px;
+}
+}
+

@@ -1,0 +1,33 @@
+main{
+    background-color: #F3F0DD;
+    padding: 5rem 0;
+    height: 90vh;
+}
+main .continar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+}
+
+main .continar .text{
+width: 450px;
+display: grid;
+gap: 3rem;  
+margin-top: 7rem;
+}
+.img-About-us{
+   position: relative;
+
+}
+
+
+.continar .img-About-us .img2{
+   position: absolute;
+   max-width: 300px;
+   left: 25%;
+   top: 50%;
+}
+.continar .img-About-us .img1{
+max-width: 300px;
+ }

@@ -1,0 +1,33 @@
+.continar h3,p{
+color:#73777a;
+line-height: 1.5rem;
+}
+.stay-in-touch{
+background-color: #EDD9C9;
+height: 85vh;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.stay-in-touch img{height:85vh;
+}
+.stay-in-touch .continar{
+display: grid;
+gap: 3rem;
+}
+
+input[type=email]{
+width: 250px;
+padding: 10px;
+border:none;
+}
+input[type=submit]{
+padding: 8px;
+color: white;
+background-color: #A4794E;
+border: none;
+padding: 10px;
+}
+
+input{
+border-radius: 3vh;
+}

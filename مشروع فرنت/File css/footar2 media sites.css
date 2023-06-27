@@ -1,0 +1,12 @@
+.logo-media{
+    height: 30vh;
+    background-color:#F3F0DD;
+    display: flex;
+    justify-content: center;
+}
+.logo-media .continar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

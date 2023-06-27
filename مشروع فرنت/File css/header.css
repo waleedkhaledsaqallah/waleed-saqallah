@@ -1,0 +1,102 @@
+header{
+    background-color:#F9EBDD;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), #F9EBDD);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(67, 66, 66, 0.37);
+}
+header .continar .menu i{
+font-size: 35px;
+display: none;
+text-align: center;
+}
+.logo .Letter-N{
+    color: #2d170ed1;
+}
+.logo .Letter-i{
+    color:#4d2d1a;
+}
+.logo .Letter-p{
+    color:#473327;
+}
+.logo .Letter-pp{
+    color: #694233;
+}
+.logo .Letter-y{
+    color: #895e48;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.logo .logo-img{
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-timing-function:ease-in-out;
+}
+@keyframes logo{
+    50%{
+        transform: scale(2);
+    }
+    75%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+header .continar .lest{
+height: 12.5vh;
+display: flex;
+align-items: center;
+justify-content:space-between;
+flex-wrap: wrap;
+}
+ header .continar .lest .menu{
+display: flex;
+gap: 3rem;
+}
+.menu .ABOUT{
+transition: 1.3s;
+border-radius: 10px;
+padding: 10px;
+}
+.menu .ABOUT:hover{
+background-color: #6b4934ae;
+color: rgb(255, 255, 255);
+}
+.menu .SHOP{
+transition: 1.3s;
+border-radius: 10px;
+padding: 10px;
+}
+.menu .SHOP:hover{
+background-color: #6b4934ae;
+color: rgb(255, 255, 255);
+}
+.menu .PORTFOLIO{
+transition: 1.3s;
+border-radius: 10px;
+padding: 10px;
+}
+.menu .PORTFOLIO:hover{
+background-color: #6b4934ae;
+color: rgb(255, 255, 255);
+
+}
+.menu .BLOG{
+transition: 1.3s;
+border-radius: 10px;
+padding: 10px;
+}
+.menu .BLOG:hover{
+background-color: #6b4934ae;
+color: rgb(255, 255, 255);
+
+}
